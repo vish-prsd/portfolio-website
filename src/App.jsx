@@ -9,7 +9,7 @@ import DigitalClock from "./components/projectComponents/DigitalClock.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="portfolio-website">
       <div className="app">
         <Header />  
         <Routes>
