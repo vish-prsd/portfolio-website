@@ -10,7 +10,7 @@ function Certifications() {
 
         <div className="certificate-grid">
           <div className="certificate-logo">
-            <img className="image" src="/react.jpeg" alt="" />
+            <img className="image" src="./react.jpeg" alt="" />
           </div>
           <div className="certificate-details">
             <h2 className="certificate-name">React Basics</h2>
@@ -28,7 +28,7 @@ function Certifications() {
 
         <div className="certificate-grid">
           <div className="certificate-logo">
-            <img className="image" src="/javascript.jpeg" alt="" />
+            <img className="image" src="./javascript.jpeg" alt="" />
           </div>
           <div className="certificate-details">
             <h2 className="certificate-name">Programming with Javascript</h2>
@@ -46,7 +46,7 @@ function Certifications() {
 
         <div className="certificate-grid">
           <div className="certificate-logo">
-            <img className="image" src="/git.jpeg" alt="" />
+            <img className="image" src="./git.jpeg" alt="" />
           </div>
           <div className="certificate-details">
             <h2 className="certificate-name">Version Control Git</h2>

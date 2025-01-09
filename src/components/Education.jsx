@@ -14,7 +14,7 @@ function Education() {
           </div>
           <div className="education-info">
             <div className="education-logo">
-              <img src="/stannesdegree.png" alt="" />
+              <img src="./stannesdegree.png" alt="" />
             </div>
             <div className="college-year-percentage">
                 <p>St. Anne's Degree College, Virajpet.</p>
@@ -33,7 +33,7 @@ function Education() {
           </div>
           <div className="education-info">
             <div className="education-logo">
-              <img src="/stannesinstitution.jpg" alt="" />
+              <img src="./stannesinstitution.jpg" alt="" />
             </div>
             <div className="college-year-percentage">
               <p>St. Anne's P U College, Virajpet.</p>
@@ -52,7 +52,7 @@ function Education() {
           </div>
           <div className="education-info">
             <div className="education-logo">
-              <img src="/stannesdegree.png" alt="" />
+              <img src="./stannesdegree.png" alt="" />
             </div>
             <div className="college-year-percentage">
               <p>Sacred Heart's High School, Napoklu.</p>
