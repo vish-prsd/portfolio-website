@@ -1,29 +1,41 @@
+.clock-body {
+  position: relative; /* To position content over the background */
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent scrollbars from appearing*/
+} 
 
-body{
-  background-image: url("assets/Space-Time.webp");
+.clock-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/Space-Time.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin: 0;
+  filter: blur(10px); /* Apply the blur only to the background */
+  z-index: -1; /* Ensure it stays behind the content */
+}
 
-  backdrop-filter: blur(5px);
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  align-items: center;
-}
-.clock-container,.date-container{
-  /* backdrop-filter: blur(5px);
-  width: 100vw; */
+.clock-container {
+  position: relative; /* Ensures it stays above the blurred background */
+  backdrop-filter: blur(5px); /* Optional: Adds blur to the content's background */
   border-radius: 50px;
-  padding: 10px 30px 10px 30px;
+  padding: 20px 40px;
   background-color: rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 0px 25px 15px rgba(0, 0, 0, 0.30);
-  
+  box-shadow: 0px 0px 25px 15px rgba(0, 0, 0, 0.3);
 }
-.clock{
-  color: aliceblue; 
+
+.clock {
+  color: aliceblue;
   font-size: 5rem;
   font-weight: bold;
   font-family: monospace;
@@ -31,8 +43,8 @@ body{
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
 }
 
-.date{
-  color: aliceblue; 
+.date {
+  color: aliceblue;
   font-size: 2rem;
   font-weight: bold;
   font-family: monospace;

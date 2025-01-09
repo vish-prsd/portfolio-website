@@ -16,6 +16,8 @@ function App() {
           <Route path = "/" element={
             <>
             <About />
+            <Education />
+            <Certifications />
             <Projects />
             <Contact />
             </>

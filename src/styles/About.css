@@ -9,7 +9,9 @@
 
 .about h2 {
   color: #333;
+  font-family: monospace;
 }
 .about p{
   color: black;
+  font-family: monospace;
 }
