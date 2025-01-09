@@ -28,6 +28,7 @@
   text-decoration: none;
   font-size: 0.9rem;
   font-family: monospace;
+  margin-top: 0;
 }
 
 .header__nav a:hover{
