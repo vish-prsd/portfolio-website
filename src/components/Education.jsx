@@ -52,7 +52,7 @@ function Education() {
           </div>
           <div className="education-info">
             <div className="education-logo">
-              <img src="./stannesdegree.png" alt="" />
+              <img src="./sacredhearts.png" alt="" />
             </div>
             <div className="college-year-percentage">
               <p>Sacred Heart's High School, Napoklu.</p>
