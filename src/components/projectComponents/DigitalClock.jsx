@@ -48,14 +48,18 @@ function DigitalClock(){
   }
 
   return(
-    <div className='clock-container'>
+    <div className='clock-body'>
+      <div className='clock-container'>
         <div className='clock'>
           <span>{formatTime()}</span>
         </div>
         <div className='date'>
-        <span>{formatDate()}</span>
+          <span>{formatDate()}</span>
+        </div>
       </div>
-      </div>
+
+    </div>
+    
     
   )
 }
