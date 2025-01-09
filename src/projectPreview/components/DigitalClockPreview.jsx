@@ -13,7 +13,6 @@ function DigitalClockPreview(){
       clearInterval(intervalId);
     }
   }, []);
-  /Users/Vishnu/portfolio-website/src/projectPreview/components/DigitalClockPreview.jsx
   function formatDate(){
     
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
