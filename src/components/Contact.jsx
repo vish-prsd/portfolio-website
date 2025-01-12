@@ -7,6 +7,7 @@ function Contact() {
   const [messageStatus, setMessageStatus] = useState(''); // For feedback message
 
   const sendEmail = (e) => {
+    console.log("Sending message");
     e.preventDefault();
 
     // Display message immediately
