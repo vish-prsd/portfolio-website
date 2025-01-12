@@ -9,6 +9,7 @@ import Certifications from "./components/Certifications.jsx";
 import Education from "./components/Education.jsx";
 
 import DigitalClock from "./components/projectComponents/DigitalClock.jsx";
+import RockPaperScissors from "./components/projectComponents/RockPaperScissors.jsx"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             </>
           }/>
           <Route path="/digital-clock" element={<DigitalClock />} />
+          <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
         </Routes>
         
       </div>

@@ -33,7 +33,7 @@ function Projects() {
           Renders={<DigitalClockPreview/>}
           title="Rock-Paper-Scissors" 
           description="A game of Rock, Paper, Scissors with basic logic" 
-          demoLink="#" 
+          demoLink="/rock-paper-scissors" 
           codeLink="#" 
         />
         <ProjectCard 
