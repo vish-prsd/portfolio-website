@@ -13,7 +13,7 @@ function Projects() {
           title="Digital Clock" 
           description="A simple digital clock built with React.js" 
           demoLink="/digital-clock" 
-          codeLink="#" 
+          codeLink="https://github.com/vish-prsd/Digital-Clock" 
         />
         <ProjectCard 
           Renders={<DigitalClockPreview/>}
@@ -34,7 +34,7 @@ function Projects() {
           title="Rock-Paper-Scissors" 
           description="A game of Rock, Paper, Scissors with basic logic" 
           demoLink="/rock-paper-scissors" 
-          codeLink="#" 
+          codeLink="https://github.com/vish-prsd/Rock-Paper-Scissors-Game" 
         />
         <ProjectCard 
           Renders={<DigitalClockPreview/>}
