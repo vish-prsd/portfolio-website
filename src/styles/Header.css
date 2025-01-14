@@ -12,16 +12,14 @@
   color:aliceblue;
   margin-bottom: 0;
 }
-
-.header__nav ul {
-  list-style-type: none;
+.header__nav ul{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  list-style: none;
+  gap: 10px;
+  /* width: 100%; */
   padding: 0;
   margin-top: 0;
-}
-
-.header__nav ul li {
-  display: inline;
-  margin: 0 15px;
 }
 
 .header__nav a {
@@ -34,5 +32,5 @@
 
 .header__nav a:hover{
   color: rgb(255, 255, 255);
-  transition: ease 0.5s;
+  transition: ease 0.3s;
 }
