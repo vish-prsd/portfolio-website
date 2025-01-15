@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import "../styles/Projects.css";
 import DigitalClockPreview from "../projectPreview/components/DigitalClockPreview";
+import RockPaperScissorsPreview from "../projectPreview/components/RockPaperScissorsPreview.jsx"
 
 function Projects() {
   return (
@@ -16,6 +17,13 @@ function Projects() {
           codeLink="https://github.com/vish-prsd/Digital-Clock" 
         />
         <ProjectCard 
+          Renders={<RockPaperScissorsPreview/>}
+          title="Rock-Paper-Scissors" 
+          description="A game of Rock, Paper, Scissors with basic logic" 
+          demoLink="/rock-paper-scissors" 
+          codeLink="https://github.com/vish-prsd/Rock-Paper-Scissors-Game" 
+        />
+        <ProjectCard 
           Renders={<DigitalClockPreview/>}
           title="Todo-List" 
           description="A Todo-List App to keep track of works" 
@@ -28,13 +36,6 @@ function Projects() {
           description="A stopwatch app with start/stop functionality" 
           demoLink="#" 
           codeLink="#" 
-        />
-        <ProjectCard 
-          Renders={<DigitalClockPreview/>}
-          title="Rock-Paper-Scissors" 
-          description="A game of Rock, Paper, Scissors with basic logic" 
-          demoLink="/rock-paper-scissors" 
-          codeLink="https://github.com/vish-prsd/Rock-Paper-Scissors-Game" 
         />
         <ProjectCard 
           Renders={<DigitalClockPreview/>}
