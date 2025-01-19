@@ -10,6 +10,7 @@ import Education from "./components/Education.jsx";
 
 import DigitalClock from "./components/projectComponents/DigitalClock.jsx";
 import RockPaperScissors from "./components/projectComponents/RockPaperScissors.jsx"
+import TodoList from "./components/projectComponents/TodoList.jsx";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           }/>
           <Route path="/digital-clock" element={<DigitalClock />} />
           <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
+          <Route path="/todo-list" element={<TodoList/>} />
         </Routes>
         
       </div>

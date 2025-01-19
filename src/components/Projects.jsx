@@ -27,8 +27,8 @@ function Projects() {
           Renders={<DigitalClockPreview/>}
           title="Todo-List" 
           description="A Todo-List App to keep track of works" 
-          demoLink="#" 
-          codeLink="#" 
+          demoLink="/todo-list" 
+          codeLink="https://github.com/vish-prsd/To-Do-List" 
         />
         <ProjectCard 
           Renders={<DigitalClockPreview/>}

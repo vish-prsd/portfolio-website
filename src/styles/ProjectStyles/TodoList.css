@@ -1,0 +1,98 @@
+.main-div-todo-list{
+  background-image: url("./todolist.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 200px;
+}
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.to-do-list h1 {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.to-do-list button {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.to-do-list .add-button {
+  background-color: rgb(89, 211, 85);
+  margin-left: 10px;
+}
+
+.add-button:hover {
+  background-color: rgb(76, 176, 58);
+}
+
+.delete-task {
+  background-color: rgb(255, 67, 67);
+}
+
+.delete-task:hover {
+  background-color: rgb(220, 59, 59);
+}
+
+.move-task {
+  background-color: rgb(67, 180, 255);
+}
+
+.move-task:hover {
+  background-color: rgb(62, 161, 227);
+}
+
+.to-do-list input[type='text'] {
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid rgba(128, 128, 128, 0.5);
+  border-radius: 5px;
+  color: rgba(255, 244, 244, 0.5);
+}
+.input-section{
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+.to-do-list ol {
+  padding: 0;
+}
+
+.to-do-list li {
+  font-size: 0.2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin: 10px 50px 10px 50px;
+  background: transparent;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.795);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.to-do-list .text {
+  flex: 1;
+  font-size: 0.8rem;
+}
+
+.delete-task, .move-task {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
