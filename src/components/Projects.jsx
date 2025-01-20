@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import "../styles/Projects.css";
 import DigitalClockPreview from "../projectPreview/components/DigitalClockPreview";
 import RockPaperScissorsPreview from "../projectPreview/components/RockPaperScissorsPreview.jsx"
+import TodoListPreview from "../projectPreview/components/TodoListPreview.jsx";
 
 function Projects() {
   return (
@@ -24,7 +25,7 @@ function Projects() {
           codeLink="https://github.com/vish-prsd/Rock-Paper-Scissors-Game" 
         />
         <ProjectCard 
-          Renders={<DigitalClockPreview/>}
+          Renders={<TodoListPreview/>}
           title="Todo-List" 
           description="A Todo-List App to keep track of works" 
           demoLink="/todo-list" 

@@ -41,8 +41,7 @@ function TodoList(){
   }
 
   return(
-    <div className='main-div-todo-list'>
-          <div className='to-do-list'>
+      <div className='to-do-list'>
       <h1>To-Do-List</h1>
       
       <div className='input-section'>
@@ -83,7 +82,6 @@ function TodoList(){
           </button>
         </li>)}
       </ol>
-    </div>
     </div>
 
   );
