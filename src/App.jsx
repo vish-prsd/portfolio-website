@@ -11,15 +11,17 @@ import Education from "./components/Education.jsx";
 import DigitalClock from "./components/projectComponents/DigitalClock.jsx";
 import RockPaperScissors from "./components/projectComponents/RockPaperScissors.jsx"
 import TodoList from "./components/projectComponents/TodoList.jsx";
+import StopWatch from "./components/projectComponents/Stop-Watch.jsx";
 
 function App() {
   return (
     <Router basename="portfolio-website">
       <div className="app">
-        <Header />  
+        
         <Routes>
           <Route path = "/" element={
             <>
+            <Header />  
             <About />
             <Education />
             <Certifications />
@@ -30,6 +32,7 @@ function App() {
           <Route path="/digital-clock" element={<DigitalClock />} />
           <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
           <Route path="/todo-list" element={<TodoList/>} />
+          <Route path="/stopwatch" element={<StopWatch/>} />
         </Routes>
         
       </div>

@@ -5,6 +5,7 @@ import DigitalClockPreview from "../projectPreview/components/DigitalClockPrevie
 import RockPaperScissorsPreview from "../projectPreview/components/RockPaperScissorsPreview.jsx"
 import TodoListPreview from "../projectPreview/components/TodoListPreview.jsx";
 
+
 function Projects() {
   return (
     <section id="projects" className="projects">
@@ -35,7 +36,7 @@ function Projects() {
           Renders={<DigitalClockPreview/>}
           title="Stopwatch" 
           description="A stopwatch app with start/stop functionality" 
-          demoLink="#" 
+          demoLink="/stopwatch" 
           codeLink="#" 
         />
         <ProjectCard 
