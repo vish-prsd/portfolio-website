@@ -4,6 +4,7 @@ import "../styles/Projects.css";
 import DigitalClockPreview from "../projectPreview/components/DigitalClockPreview";
 import RockPaperScissorsPreview from "../projectPreview/components/RockPaperScissorsPreview.jsx"
 import TodoListPreview from "../projectPreview/components/TodoListPreview.jsx";
+import StopWatchPreview from "../projectPreview/components/Stop-Watch-Preview.jsx";
 
 
 function Projects() {
@@ -33,11 +34,11 @@ function Projects() {
           codeLink="https://github.com/vish-prsd/To-Do-List" 
         />
         <ProjectCard 
-          Renders={<DigitalClockPreview/>}
+          Renders={<StopWatchPreview/>}
           title="Stopwatch" 
           description="A stopwatch app with start/stop functionality" 
           demoLink="/stopwatch" 
-          codeLink="#" 
+          codeLink="https://github.com/vish-prsd/Stop-Watch" 
         />
         <ProjectCard 
           Renders={<DigitalClockPreview/>}
