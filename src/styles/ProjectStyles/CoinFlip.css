@@ -1,0 +1,110 @@
+/* Full-screen container */
+.HT-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: url('/coinflip.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Flexible game wrapper */
+.HT-game-wrapper {
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 0px 25px 15px rgba(114, 114, 114, 0.3);
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  max-width: 90%; /* Maximum width to prevent overflow */
+  width: auto; /* Automatically adjust width based on content */
+}
+
+/* Title */
+.HT-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+/* Instruction text */
+.HT-instruction {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.HT-button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.HT-game-button {
+  font-size: 1rem;
+  color: white;
+  background-color: #ff5739;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.HT-game-button:hover {
+  background-color: #ff0000;
+}
+
+/* Result text */
+.HT-outcome{
+  font-size: 1.3rem;
+  color: #ff5739;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.winloose{
+  font-size: 1.5rem;
+}
+
+.coin {
+  border: 10px solid goldenrod;
+  border-style: double; /* Ridge-style border for a 3D effect */
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(162, 123, 25);
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers the text inside */
+  text-align: center;
+  background-color: gold; /* Coin color */
+  box-shadow: 10px 10px 20px -5px goldenrod inset;
+  margin: 0 auto;
+}
+
+.coin-animation{
+  animation: flip 3s ease-in-out;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+  /* 50% {
+    transform: rotateX(1800deg);
+  } */
+  100% {
+    transform: rotateX(1800deg);
+  }
+}

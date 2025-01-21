@@ -12,6 +12,7 @@ import DigitalClock from "./components/projectComponents/DigitalClock.jsx";
 import RockPaperScissors from "./components/projectComponents/RockPaperScissors.jsx"
 import TodoList from "./components/projectComponents/TodoList.jsx";
 import StopWatch from "./components/projectComponents/Stop-Watch.jsx";
+import CoinFlipGame from "./components/CoinFlip.jsx";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
           <Route path="/todo-list" element={<TodoList/>} />
           <Route path="/stopwatch" element={<StopWatch/>} />
+          <Route path="/coinflip" element={<CoinFlipGame/>} />
         </Routes>
         
       </div>

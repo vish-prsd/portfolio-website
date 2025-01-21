@@ -44,7 +44,7 @@ function Projects() {
           Renders={<DigitalClockPreview/>}
           title="Coin-Flip-Game" 
           description="A game of Coin-Flip with basic logic" 
-          demoLink="#" 
+          demoLink="/coinflip" 
           codeLink="#" 
         />
         <ProjectCard 
