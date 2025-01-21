@@ -3,7 +3,7 @@ import "../styles/ProjectStyles/CoinFlip.css";
 
 const CoinFlipGame = () => {
   const [coinFace, setCoinFace] = useState("COIN"); // The outcome of the coin flip
-  const [outcome, setOutcome] = useState("| WON or LOST |"); // Message for who won
+  const [outcome, setOutcome] = useState("| WIN or LOOSE |"); // Message for who won
   const [animateCoin, setAnimateCoin] = useState(false); // To trigger coin animation
 
   const finalResult = (userGuess) => {
@@ -39,12 +39,14 @@ const CoinFlipGame = () => {
     <div className="HT-container">
       <div className="HT-game-wrapper">
         <h1 className="HT-title">Flip a Coin!</h1>
+        <div className={`coin ${animateCoin ? "coin-animation" : ""}`}> {coinFace}</div>
+        <p className="HT-outcome">{outcome}</p>
         <p className="HT-instruction">What's your guess?</p>
         <div className="HT-button-container">
           <button className="HT-game-button" 
             onClick={() => 
                       {
-                        setOutcome("| WON or LOST |")
+                        setOutcome("| WIN or LOOSE |")
                         finalResult("HEADS")
                       }
                     }>
@@ -53,15 +55,13 @@ const CoinFlipGame = () => {
           <button className="HT-game-button" 
             onClick={() =>
                       {
-                        setOutcome("| WON or LOST |")
+                        setOutcome("| WIN or LOOSE |")
                         finalResult("TAILS")
                       }
                     }>
             Tails
           </button>
         </div>
-        <div className={`coin ${animateCoin ? "coin-animation" : ""}`}> {coinFace}</div>
-
         <div className="HT-result">
           {/* {outcome && (
             <>
@@ -69,7 +69,6 @@ const CoinFlipGame = () => {
               <p>{outcome.split("\n")[1]}</p>
             </>
           )} remeber this a code to separate and display elements inside a single P borken by \n to treat as an array*/}
-          <p className="HT-outcome">{outcome}</p>
         </div>
       </div>
 
