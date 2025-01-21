@@ -46,7 +46,7 @@ function Projects() {
           title="Coin-Flip-Game" 
           description="A game of Coin-Flip with basic logic" 
           demoLink="/coinflip" 
-          codeLink="#" 
+          codeLink="https://github.com/vish-prsd/portfolio-website/blob/main/src/components/CoinFlip.jsx" 
         />
         <ProjectCard 
           Renders={<DigitalClockPreview/>}
