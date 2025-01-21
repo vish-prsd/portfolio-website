@@ -1,6 +1,6 @@
 /* Scoped to preview component */
 .main-div-preview {
-  background-image: url("./rpscbg.jpg");
+  background-image: url("/rpscbg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
