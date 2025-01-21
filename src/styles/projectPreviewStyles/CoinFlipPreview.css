@@ -1,0 +1,111 @@
+/* Full-screen container */
+.HTR-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: url('/coinflip.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 200px;
+}
+
+/* Flexible game wrapper */
+.HTR-game-wrapper {
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 0px 25px 15px rgba(77, 77, 77, 0.546);
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 5px 30px 1px 30px;
+  text-align: center;
+  max-width: 90%; /* Maximum width to prevent overflow */
+  width: auto; /* Automatically adjust width based on content */
+}
+
+/* Title */
+.HTR-title {
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+/* Instruction text */
+.HTR-instruction {
+  font-size: 0.6rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.HTR-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.HTR-game-button {
+  font-size: 0.6rem;
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.HTR-game-button:hover {
+  background-color: #dc0000;
+}
+
+/* Result text */
+.HTR-outcome{
+  font-size: 0.6em;
+  color: gold;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.winloose{
+  font-size: 1.5rem;
+}
+
+.HTR-coin {
+  border: 5px solid goldenrod;
+  border-style: double; /* Ridge-style border for a 3D effect */
+  border-radius: 50%;
+  font-size: 8px;
+  font-weight: bold;
+  color: rgb(162, 123, 25);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers the text inside */
+  text-align: center;
+  background-color: gold; /* Coin color */
+  box-shadow: 10px 10px 20px -5px goldenrod inset;
+  margin: 0 auto;
+}
+
+.HTR-coin-animation{
+  animation: flip 3s ease-in-out;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+  /* 50% {
+    transform: rotateX(1800deg);
+  } */
+  100% {
+    transform: rotateX(1800deg);
+  }
+}

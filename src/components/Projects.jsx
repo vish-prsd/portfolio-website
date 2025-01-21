@@ -5,6 +5,7 @@ import DigitalClockPreview from "../projectPreview/components/DigitalClockPrevie
 import RockPaperScissorsPreview from "../projectPreview/components/RockPaperScissorsPreview.jsx"
 import TodoListPreview from "../projectPreview/components/TodoListPreview.jsx";
 import StopWatchPreview from "../projectPreview/components/Stop-Watch-Preview.jsx";
+import CoinFlipPreview from "../projectPreview/components/CoinFlipPreview.jsx"
 
 
 function Projects() {
@@ -41,7 +42,7 @@ function Projects() {
           codeLink="https://github.com/vish-prsd/Stop-Watch" 
         />
         <ProjectCard 
-          Renders={<DigitalClockPreview/>}
+          Renders={<CoinFlipPreview/>}
           title="Coin-Flip-Game" 
           description="A game of Coin-Flip with basic logic" 
           demoLink="/coinflip" 
