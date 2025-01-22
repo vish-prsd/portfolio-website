@@ -1,0 +1,51 @@
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 200px;
+  background-color: aliceblue;
+}
+.color-picker-display{
+  box-shadow: 0px 0px 15px 15px lightgray;
+  border-radius: 30px;
+  height: 20px;
+  padding: 10px;
+  transition: 0.25s ease;
+}
+.color-input {
+  border: none; /* Removes the border */
+  outline: none; /* Removes the focus outline */
+  padding: 0; /* Removes any padding */
+  background: none; /* Ensures no background styling */
+  cursor: pointer; /* Adds a pointer cursor for better UX */
+  display: inline;
+}
+
+
+.color-picker-container p{
+margin: 0;
+color: black;
+
+}
+.color-picker-container h5{
+  color: black;
+  margin: 20px 0 3px 0;
+}
+
+/* .color-picker-arrow{
+  display: inline-block;
+  animation: flip 8s linear infinite;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(1800deg);
+  }
+  100% {
+    transform: rotateX(3600deg);
+  }
+} */

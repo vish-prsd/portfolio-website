@@ -6,11 +6,11 @@ import RockPaperScissorsPreview from "../projectPreview/components/RockPaperScis
 import TodoListPreview from "../projectPreview/components/TodoListPreview.jsx";
 import StopWatchPreview from "../projectPreview/components/Stop-Watch-Preview.jsx";
 import CoinFlipPreview from "../projectPreview/components/CoinFlipPreview.jsx"
-
+import ColorPicker from "../projectPreview/components/ColorPicker.jsx"
 
 function Projects() {
   return (
-    <section id="projects" className="projects">
+    <section id="projects" className="projects sections">
       <h2>Projects</h2>
       <div className="projects__grid">
         <ProjectCard 
@@ -49,7 +49,7 @@ function Projects() {
           codeLink="https://github.com/vish-prsd/portfolio-website/blob/main/src/components/CoinFlip.jsx" 
         />
         <ProjectCard 
-          Renders={<DigitalClockPreview/>}
+          Renders={<ColorPicker/>}
           title="Calculator" 
           description="A simple calculator performing basic arithmetic tasks" 
           demoLink="#" 

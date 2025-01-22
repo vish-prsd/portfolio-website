@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/ProjectStyles/CoinFlip.css";
+import "../../styles/ProjectStyles/CoinFlip.css";
 
 const CoinFlipGame = () => {
   const [coinFace, setCoinFace] = useState("COIN"); // The outcome of the coin flip

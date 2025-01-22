@@ -12,7 +12,7 @@ import DigitalClock from "./components/projectComponents/DigitalClock.jsx";
 import RockPaperScissors from "./components/projectComponents/RockPaperScissors.jsx"
 import TodoList from "./components/projectComponents/TodoList.jsx";
 import StopWatch from "./components/projectComponents/Stop-Watch.jsx";
-import CoinFlipGame from "./components/CoinFlip.jsx";
+import CoinFlipGame from "./components/projectComponents/CoinFlip.jsx";
 
 function App() {
   return (

@@ -3,7 +3,7 @@ import "../styles/Education.css";
 
 function Education() {
   return (
-    <section id="education" className="education">
+    <section id="education" className="education sections">
       <h2>Education</h2>
 
       <div className="education-main-grid">
