@@ -53,7 +53,7 @@ function Projects() {
           title="Calculator" 
           description="A simple calculator performing basic arithmetic tasks" 
           demoLink="#" 
-          codeLink="#" 
+          codeLink="https://github.com/vish-prsd/portfolio-website/blob/main/src/projectPreview/components/ColorPicker.jsx" 
         />
       </div>
     </section>
