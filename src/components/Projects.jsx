@@ -50,8 +50,8 @@ function Projects() {
         />
         <ProjectCard 
           Renders={<ColorPicker/>}
-          title="Calculator" 
-          description="A simple calculator performing basic arithmetic tasks" 
+          title="Color-Picker" 
+          description="A color picker tool to change background color" 
           demoLink="#" 
           codeLink="https://github.com/vish-prsd/portfolio-website/blob/main/src/projectPreview/components/ColorPicker.jsx" 
         />
