@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -9,34 +9,35 @@ import Certifications from "./components/Certifications.jsx";
 import Education from "./components/Education.jsx";
 
 import DigitalClock from "./components/projectComponents/DigitalClock.jsx";
-import RockPaperScissors from "./components/projectComponents/RockPaperScissors.jsx"
+import RockPaperScissors from "./components/projectComponents/RockPaperScissors.jsx";
 import TodoList from "./components/projectComponents/TodoList.jsx";
 import StopWatch from "./components/projectComponents/Stop-Watch.jsx";
 import CoinFlipGame from "./components/projectComponents/CoinFlip.jsx";
 
 function App() {
   return (
-    <Router basename="portfolio-website">
+    <Router basename="/portfolio-website">
       <div className="app">
-        
         <Routes>
-          <Route path = "/" element={
-            <>
-            <Header />  
-            <About />
-            <Education />
-            <Certifications />
-            <Projects />
-            <Contact />
-            </>
-          }/>
+          <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <About />
+                <Education />
+                <Certifications />
+                <Projects />
+                <Contact />
+              </>
+            }
+          />
           <Route path="/digital-clock" element={<DigitalClock />} />
           <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
-          <Route path="/todo-list" element={<TodoList/>} />
-          <Route path="/stopwatch" element={<StopWatch/>} />
-          <Route path="/coinflip" element={<CoinFlipGame/>} />
+          <Route path="/todo-list" element={<TodoList />} />
+          <Route path="/stopwatch" element={<StopWatch />} />
+          <Route path="/coinflip" element={<CoinFlipGame />} />
         </Routes>
-        
       </div>
     </Router>
   );
