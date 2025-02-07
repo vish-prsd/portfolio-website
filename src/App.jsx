@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -16,30 +16,28 @@ import CoinFlipGame from "./components/projectComponents/CoinFlip.jsx";
 
 function App() {
   return (
-    <Router basename="/portfolio-website">
-      <div className="app">
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Header />
-                <About />
-                <Education />
-                <Certifications />
-                <Projects />
-                <Contact />
-              </>
-            }
-          />
-          <Route path="/digital-clock" element={<DigitalClock />} />
-          <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
-          <Route path="/todo-list" element={<TodoList />} />
-          <Route path="/stopwatch" element={<StopWatch />} />
-          <Route path="/coinflip" element={<CoinFlipGame />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="app">
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <About />
+              <Education />
+              <Certifications />
+              <Projects />
+              <Contact />
+            </>
+          }
+        />
+        <Route path="/digital-clock" element={<DigitalClock />} />
+        <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
+        <Route path="/todo-list" element={<TodoList />} />
+        <Route path="/stopwatch" element={<StopWatch />} />
+        <Route path="/coinflip" element={<CoinFlipGame />} />
+      </Routes>
+    </div>
   );
 }
 
