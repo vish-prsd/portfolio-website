@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import "../styles/Header.css";
 
 function Header() {
@@ -8,13 +9,11 @@ function Header() {
       <h2>(Front-End Developer)</h2>
       <nav className="header__nav">
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#certifications">Certifications</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          
-          
+          <li><Link smooth to="/#about">About</Link></li>
+          <li><Link smooth to="/#education">Education</Link></li>
+          <li><Link smooth to="/#certifications">Certifications</Link></li>
+          <li><Link smooth to="/#projects">Projects</Link></li>
+          <li><Link smooth to="/#contact">Contact</Link></li>
         </ul>
       </nav>
     </header>

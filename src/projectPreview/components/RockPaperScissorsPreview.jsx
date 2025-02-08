@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import "../../styles/ProjectPreviewStyles/RockPaperScissorsPreview.css";
 
 const RockPaperScissorsPreview = () => {
-  const [playerMove, setPlayerMove] = useState("");
-  const [computerMove, setComputerMove] = useState("");
+  const [playerMove, setPlayerMove] = useState("rock");
+  const [computerMove, setComputerMove] = useState("rock");
   const [result, setResult] = useState("Game Result");
   const [score, setScore] = useState(() => {
     const savedScore = localStorage.getItem("preview-score");
